@@ -2,7 +2,7 @@
 
 I want to create a ample c# project and dockerize it and push it to azure git and then deploy it on azure app-service
 
-requirements in ubuntu:
+Requirements in ubuntu:
 ```bash
 wget https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
