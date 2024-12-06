@@ -7,7 +7,7 @@ Requirements in ubuntu:
 wget https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-7.0 # if it didn't work use 6.0
+sudo apt-get install -y dotnet-sdk-6.0
 ```
 
 Then we create to cs file : Program.cs and MyWebApp.csproj
