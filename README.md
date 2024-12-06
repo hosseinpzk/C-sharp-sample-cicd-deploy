@@ -23,3 +23,7 @@ This would be result in case of succession:
 
 Now we create **Dockerfile**
 
+Let's build our image file
+```bash
+docker build -t mywebapp .
+```
