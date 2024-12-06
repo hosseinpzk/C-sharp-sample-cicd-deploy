@@ -9,3 +9,12 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-7.0 # if it didn't work use 6.0
 ```
+
+Then we create to cs file : Program.cs and MyWebApp.csproj
+
+Now time to build dotnet application
+```bash
+dotnet new web -o MyWebApp
+cd MyWebApp
+dotnet build
+```
