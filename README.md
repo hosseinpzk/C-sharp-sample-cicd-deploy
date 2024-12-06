@@ -21,3 +21,5 @@ dotnet build
 This would be result in case of succession:
 ![image](https://github.com/user-attachments/assets/32d72f42-49d3-4c6f-ad6b-058cb531b2b6)
 
+Now we create **Dockerfile**
+
