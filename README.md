@@ -27,3 +27,8 @@ Let's build our image file
 ```bash
 docker build -t mywebapp .
 ```
+
+To run container:
+```bash
+docker run -d -p 8080:80 --name mywebapp-container mywebapp
+```
