@@ -33,7 +33,7 @@ To run container:
 docker run -d -p 8080:80 --name mywebapp-container mywebapp
 ```
 
-Now you should see a "Hello World" page on localhost:8080like this:
+Now you should see a "Hello World" page on localhost:8080 like this:
 
 ![image](https://github.com/user-attachments/assets/2e3215af-04ad-4840-8d08-822c7fbdd8cd)
  
