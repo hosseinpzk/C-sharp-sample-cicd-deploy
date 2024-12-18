@@ -12,7 +12,7 @@ docker build -t my-csharp-app .
 
 To run container:
 ```bash
-docker run -p 8080:80 my-csharp-app
+docker run -p -d 8080:80 my-csharp-app
 ```
 
 Now you should see a "Hello World" page on localhost:8080 like this:
