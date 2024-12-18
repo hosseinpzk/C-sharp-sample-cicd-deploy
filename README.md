@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install -y dotnet-sdk-8.0
 ```
 
-Then we create to cs file : Program.cs and MyWebApp.csproj
+Then we create 2 cs files : Program.cs and MyWebApp.csproj
 
 Now time to build dotnet application
 ```bash
@@ -21,7 +21,7 @@ dotnet build
 This would be result in case of succession:
 ![image](https://github.com/user-attachments/assets/32d72f42-49d3-4c6f-ad6b-058cb531b2b6)
 
-Now we create **Dockerfile**
+Now we create **Dockerfile** beside .cs and .csproj
 
 Let's build our image file
 ```bash
