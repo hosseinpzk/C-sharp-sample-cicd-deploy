@@ -2,6 +2,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello, Dockerized ASP.NET on .NET 6!");
+app.MapGet("/", () => "Hello World!");
 
 app.Run();
